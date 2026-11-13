@@ -1,0 +1,56 @@
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Header {
+    min-height: 100px;
+    Font-family: Arial, sans-serif;
+    background-color: rgb(63, 38, 110);
+    color: white;
+    Margin: 0;
+    Padding: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    border-bottom: 2px solid #503b77b2;
+
+
+}
+
+.Header-title {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+.Header-list {
+    list-style: none;
+    font-size: 18px;
+   display: flex;
+   flex-direction: row;
+  
+
+}
+
+.Header-item {
+    margin-right: 20px;
+    cursor: pointer;
+    hover: 
+}
+
+.Header-item:hover {
+    color: #e2e2e2;
+
+}
+
+.Search-input {
+    Min-height: 30px;
+    Min-width: 100px;
+    Max-width: 300px;
+    border-radius: 12px;
+    Padding: 0 0 0 10px;
+    Border: none;
+
+}
